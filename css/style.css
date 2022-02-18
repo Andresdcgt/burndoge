@@ -1,0 +1,423 @@
+:root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --primario: #784D3C;
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --card-shadowcont: 1px 2px 100px rgb(66, 8, 8);
+    --card-shadow0: 1px 2px 100px rgb(87, 10, 10);
+    --card-shadow1: 1px 2px 100px rgb(255, 0, 0);
+    --card-shadow2: 1px 2px 100px rgb(251, 90, 0);
+    --card-shadow3: 1px 2px 100px rgb(255, 154, 0);
+    --card-shadow4: 1px 2px 100px rgb(255, 206, 0);
+    --card-shadow5: 1px 2px 100px rgb(255, 232, 8);
+    /* --card-shadowcont: 1px 2px 100px rgb(77, 6, 6);
+    --card-shadowcont1: 1px 2px 100px rgb(122, 35, 35); */
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    /* font-family: var(--fuenteParrafos); */
+    font-family:'Fredoka One';
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #240404;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&family=Signika+Negative:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+/** Globales **/
+.contenedor {
+    width: min(90%);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    font-family: 'Fredoka One';
+    line-height: 1.2;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+    color: #ffffff;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Fredoka One';
+    font-size: 1.rem;
+    color: #e1e1e1;
+    
+}
+
+.textomain {
+    color: #ffffff;
+}
+
+
+.sombra {
+    margin-top: 5rem;   /*Separacion hacia arriba */
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: #1B1C1D;
+    border-radius: 7rem;
+    /* border-radius: 50% 10% / 20% 30%; */
+    /* border-radius: 30% 20% / 10% 50%; */
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.671);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow0);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow1);
+    box-shadow: var(--card-shadow2);
+    box-shadow: var(--card-shadow2);
+    box-shadow: var(--card-shadow3);
+    height: auto;
+}
+
+
+/** Main **/
+
+.sombramain {
+    margin-top: 5rem;   /*Separacion hacia arriba */
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgb(24, 4, 4);
+    border-radius: 7rem;
+    /* -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63); */
+    height: auto;
+}
+
+
+.sombracontenidomain {
+    padding: 4rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 7rem;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.671);
+    box-shadow: var(--card-shadowcont);
+    height: auto;    
+}
+
+.contenido_contendormain{
+    align-content: center;
+    padding: 2rem;
+    column-gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenido__textomain {
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: 'Fredoka One';
+}
+
+
+
+.sobre-nosotros__imagenmain {
+    height: auto; 
+    text-align:center;
+}
+
+ /** Dise;o textarea **/
+textarea {
+    height: auto;
+    resize: none;
+    width: 100%;
+    overflow: auto;
+    text-align:center;
+    background-color: #00000000;
+    color: #ff0000;
+    text-align: center;
+    font-size: 6.7rem; 
+    border: none;
+    font-family: 'Fredoka One';
+    outline:none; /*Oculta el area*/
+}
+
+
+.botonmenu {
+    border-radius: 7rem;
+    display: block;
+    font-family: 'Fredoka One';
+    color: #000000;
+    text-align: center;
+    padding: 1rem 3rem;
+    /* font-size: 1rem; */
+    font-weight: 1000;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: #ffffff;
+}
+
+.botonmenu {
+    /* height:20px;  */
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    transition: transform .3s;  /* Acercar 2 */
+}
+
+/** hover boton **/
+.botonmenu::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.botonmenu:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
+
+.botonmenu:hover {
+    cursor: copy;
+    background-image: linear-gradient(red, yellow);
+    transform: scale(1.1); /* Acercar 1 */
+}
+
+                                    
+.sombra1 {
+    margin-top: 5rem;   /*Separacion hacia arriba */
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 7rem;
+    height: auto;
+}
+
+
+/** Prueba **/
+
+.contenido_contendor{
+    align-content: center;
+    padding: 2rem;
+    column-gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+@media (min-width: 768px) {
+    .contenido_contendor {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        column-gap: 2rem;
+    }
+}
+
+
+/** Imagenes Dogecoin **/
+.sombracontenidoprueba { 
+    padding: 8rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 7rem;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.671);
+    box-shadow: var(--card-shadowcont);
+    height:fit-content;
+}
+
+
+/** Utilidades **/
+
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+
+/** Parrafos **/
+.centrar-texto {
+    text-align: center;
+    
+}
+
+/** Header **/
+.webp .header {
+    background-image: url(../img/banner.jpg);
+}
+
+.header {
+    height: 85rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+ 
+.header_texto {
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
+
+.header_texto2 {
+    text-align: center;
+    color: var(--negro);
+    margin-top: 5rem;  
+    height: auto;
+}
+
+.foo_texto {
+    text-align: center;
+    color: #ffffff;
+}
+
+.header__texto {
+   text-align: center;
+   color: var(--blanco);
+   margin-top: 5rem;
+}
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
+}
+.barra {
+    padding-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo {
+    color: var(--blanco);
+    
+}
+.logo__nombre {
+    font-weight: 400;
+}
+.logo__bold {
+    font-weight: 700;
+}
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+
+    }
+}
+
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+    height: auto; 
+}
+
+/** Sobre Nosotros **/
+
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media (-width: 768px) {
+    .sobre-nosotros__texto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.imagen_nosotros{
+    background-image: url(../img/nosotros.jpg);
+    height: 30rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/** zooom **/
+
+.zooom {
+    transition: transform .3s;
+}
+
+.zooom:hover{
+    transform: scale(1.1); 
+}
