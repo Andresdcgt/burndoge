@@ -290,15 +290,13 @@ textarea {
 }
 
 /** Header **/
-.webp .header {
-    background-image: url(../img/banner.jpg);
-}
 
 .header {
     height: 85rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-image: url(../img/banner.jpg);
 }
  
 .header_texto {
